@@ -16,5 +16,5 @@ var luigismarker = L.marker([40.57407929007067, -74.14246335141281]).addTo(map);
 // Add a popup to the marker
 luigismarker.bindPopup(`
     <b>EggsIceCream Parlor/br>
-    <img src="https://aurashktest.github.io/aurashktest/images/luigis.png" style="width: 100px; height: auto;">
+    <img src="https://asbahfarhan.github.io/asbahfarhan/EggersIceCreamPalor.png" style="width: 100px; height: auto;">
 `).openPopup();
