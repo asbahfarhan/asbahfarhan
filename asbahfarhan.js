@@ -1,5 +1,5 @@
 // Initialize Leaflet map
-var map = L.map('nymap').setView([40.681801312931455, -73.9571896025164],13); // Set center to New York City and zoom level
+var map = L.map('nymap').setView([40.681801312931455, -73.9571896025164]); // Set center to New York City and zoom level
 
 // Add a tile layer to the map (for example, OpenStreetMap)
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -11,7 +11,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 // Add a marker to the map for New York City
-var luigismarker = L.marker([40.57123511102176, -74.14576783441058]).addTo(map);
+var luigismarker = L.marker([40.571186213395016,-74.14575710557477]).addTo(map);
 
 // Add a popup to the marker
 luigismarker.bindPopup(`
