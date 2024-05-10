@@ -23,7 +23,7 @@ luigismarker.bindPopup(`
 
 
 // Add a marker to the map for New York City
-var prattinstmarker = L.marker([40.69099831383163, -73.96332055134893]).addTo(map);
+var prattinstmarker = L.marker([40.57123511102176, -74.14576783441058]).addTo(map);
 
 
 // Add a popup to the marker
