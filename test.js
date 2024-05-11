@@ -15,7 +15,7 @@ var luigismarker = L.marker([40.57407929007067, -74.14246335141281]).addTo(map);
 
 // Add a popup to the marker
 luigismarker.bindPopup(`
-    <b>Eggers IceCream Parlor</br>
+    <b>Eggers IceCream Parlor</b>
     <img src="https://asbahfarhan.github.io/asbahfarhan/EggersIceCreamPalor.png" style="width: 100px; height: 100px;">
 `).openPopup();
 // Add a marker to the map for New York City
