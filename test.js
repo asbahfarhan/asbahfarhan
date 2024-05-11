@@ -22,7 +22,7 @@ luigismarker.bindPopup(`
 var prattinstmarker = L.marker([40.69099831383163, -73.96332055134893]).addTo(map);
 
 
-// Add a popup to the marker
+/* Add a popup to the marker
 prattinstmarker.bindPopup(`
     <b>Pratt Institute</b><br>Sculpture Garden and green space <br>
     <img src="https://aurashktest.github.io/aurashktest/images/pratt.jpg" style="width: 100px; height: auto;">
