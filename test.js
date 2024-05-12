@@ -46,7 +46,7 @@ fetch('https://asbahfarhan.github.io/asbahfarhan/AsbahsMorningRoute.geojson')
 
 
  // Load the GeoJSON line file
-fetch('https://asbahfarhan.github.io/asbahfarhan/AsbahsEvening_Route.geojson')
+fetch('https://asbahfarhan.github.io/asbahfarhan/AsbahFarEveningRoute.geojson')
 .then(response => response.json())
 .then(geojson => {
     // Customize the style of the line
