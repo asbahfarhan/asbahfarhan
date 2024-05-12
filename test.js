@@ -64,4 +64,3 @@ fetch('https://asbahfarhan.github.io/asbahfarhan/Asbah_EveningRoute.geojson')
 .catch(error => {
     console.error('Error loading GeoJSON file:', error);
 });
-
