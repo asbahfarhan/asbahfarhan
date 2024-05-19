@@ -19,7 +19,7 @@ luigismarker.bindPopup(`
     <img src="https://asbahfarhan.github.io/asbahfarhan/EggersIceCreamParlor.png" style="width: 250px; height: 250px">
 `).openPopup();
 // Add a marker to the map for New York City
-var prattinstmarker = L.marker([40.69099831383163, -73.96332055134893]).addTo(map);
+//var prattinstmarker = L.marker([40.69099831383163, -73.96332055134893]).addTo(map);
 
 
 
