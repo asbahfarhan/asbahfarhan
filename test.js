@@ -14,7 +14,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 //var luigismarker = L.marker([40.571210662212856, -74.14542451166442]).addTo(map);
 
 // Add a popup to the marker
-//luigismarker.bindPopup(`
+luigismarker.bindPopup(`
    // <b>Eggers IceCream Parlor</b>
    // <img src="https://asbahfarhan.github.io/asbahfarhan/EggersIceCreamParlor.png" style="width: 250px; height: 250px">
 //`).openPopup();
