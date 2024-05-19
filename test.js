@@ -10,7 +10,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 
-Add a marker to the map for New York City
+//Add a marker to the map for New York City
 var luigismarker = L.marker([40.571210662212856, -74.14542451166442]).addTo(map);
 
 // Add a popup to the marker
