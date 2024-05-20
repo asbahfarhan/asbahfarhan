@@ -62,3 +62,51 @@ fetch('https://asbahfarhan.github.io/asbahfarhan/Asbah_EveningRoute.geojson')
 .catch(error => {
     console.error('Error loading GeoJSON file:', error);
 });
+
+// Load the GeoJSON polygon file
+fetch('https://asbahfarhan.github.io/asbahfarhan/AsbahsMorningRouteBuilding.geojson')
+.then(response => response.json())
+.then(geojson => {
+    // Customize the style of the polygon
+    var polygonStyle = {
+        fillColor: 'black', // Fill color
+        fillOpacity: 0.5, // Fill opacity
+    };
+
+    // Add the GeoJSON polygon to the map
+    L.geoJSON(geojson, {
+        style: polygonStyle
+    }).addTo(map);
+})
+.catch(error => {
+    console.error('Error loading GeoJSON file:', error);
+});
+
+
+// Load the GeoJSON polygon file
+fetch('https://asbahfarhan.github.io/asbahfarhan/AsbahsEveningRouteBuildings.geojson')
+.then(response => response.json())
+.then(geojson => {
+    // Customize the style of the polygon
+    var polygonStyle = {
+        fillColor: 'black', // Fill color
+        fillOpacity: 0.5, // Fill opacity
+    };
+
+    // Add the GeoJSON polygon to the map
+    L.geoJSON(geojson, {
+        style: polygonStyle
+    }).addTo(map);
+})
+.catch(error => {
+    console.error('Error loading GeoJSON file:', error);
+});
+
+
+var categoryColors = {
+    "1": "red",
+    "2": "orange",
+    "3": "yellow",
+    "4": "green",
+    "X": "gray" // Default color for other categories
+};
