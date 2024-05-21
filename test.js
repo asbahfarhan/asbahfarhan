@@ -20,18 +20,6 @@ luigismarker.bindPopup(`
 //`).openPopup();
 
 
-// Add a marker to the map for New York City
-var prattinstmarker = L.marker([40.69099831383163, -73.96332055134893]).addTo(map);
-
-
-// Add a popup to the marker
-prattinstmarker.bindPopup(`
-    <b>Pratt Institute</b><br>Sculpture Garden and green space <br>
-    <img src="https://asbahfarhan.github.io/asbahfarhan/pratt.jpg" style="width: 100px; height: auto;">
-`).openPopup();
-
-
-
  // Load the GeoJSON line file
 fetch('https://asbahfarhan.github.io/asbahfarhan/AsbahsMorningRoute.geojson')
 .then(response => response.json())
