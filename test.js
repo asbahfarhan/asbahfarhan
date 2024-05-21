@@ -31,16 +31,6 @@ prattinstmarker.bindPopup(`
 `).openPopup();
 
 
-// Add a marker to the map for New York City
-var ftgreeneparkmarker = L.marker([40.69271525220281, -73.97682542294763]).addTo(map);
-
-
-// Add a popup to the marker
-ftgreeneparkmarker.bindPopup(`
-    <b>Ft Greene Park</b><br>Prison Ship Martrys Monument has good views of the city.<br>
-    <img src="https://asbahfarhan.github.io/asbahfarhan/psm.jpg"  style="width: 100px; height: auto;">
-`).openPopup();
-
 
  // Load the GeoJSON line file
 fetch('https://asbahfarhan.github.io/asbahfarhan/AsbahsMorningRoute.geojson')
