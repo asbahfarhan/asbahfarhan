@@ -19,6 +19,24 @@ luigismarker.bindPopup(`
    <img src="https://asbahfarhan.github.io/asbahfarhan/EggersIceCreamParlor.png" style="width: 250px; height: 250px">
 //`).openPopup();
 
+//Add a marker to the map for New York City
+var luigismarker = L.marker([40.53353484428936, -74.20941532805996]).addTo(map);
+
+// Add a popup to the marker
+luigismarker.bindPopup(`
+   <b>Eggers IceCream Parlor</b>
+   <img src="https://asbahfarhan.github.io/asbahfarhan/BloomingdalePark.png" style="width: 250px; height: 250px">
+//`).openPopup();
+
+//Add a marker to the map for New York City
+var luigismarker = L.marker([40.51931224600328, -74.18980217859182]).addTo(map);
+
+// Add a popup to the marker
+luigismarker.bindPopup(`
+   <b>Eggers IceCream Parlor</b>
+   <img src="https://asbahfarhan.github.io/asbahfarhan/WolfesPondPark.jpg" style="width: 250px; height: 250px">
+//`).openPopup();
+
 
  // Load the GeoJSON line file
 fetch('https://asbahfarhan.github.io/asbahfarhan/AsbahsMorningRoute.geojson')
