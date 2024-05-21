@@ -11,28 +11,28 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 //Add a marker to the map for New York City
-var luigismarker = L.marker([40.571210662212856, -74.14542451166442]).addTo(map);
+var EggersPalor = L.marker([40.571210662212856, -74.14542451166442]).addTo(map);
 
 // Add a popup to the marker
-luigismarker.bindPopup(`
+EggersPalor.bindPopup(`
    <b>Eggers IceCream Parlor</b>
    <img src="https://asbahfarhan.github.io/asbahfarhan/EggersIceCreamParlor.png" style="width: 250px; height: 250px">
 //`).openPopup();
 
 //Add a marker to the map for New York City
-var luigismarker = L.marker([40.53353484428936, -74.20941532805996]).addTo(map);
+var BloomingDale = L.marker([40.53353484428936, -74.20941532805996]).addTo(map);
 
 // Add a popup to the marker
-luigismarker.bindPopup(`
+BloomingDale.bindPopup(`
    <b>Eggers IceCream Parlor</b>
    <img src="https://asbahfarhan.github.io/asbahfarhan/BloomingdalePark.png" style="width: 250px; height: 250px">
 //`).openPopup();
 
 //Add a marker to the map for New York City
-var luigismarker = L.marker([40.51931224600328, -74.18980217859182]).addTo(map);
+var Wolfspond = L.marker([40.51931224600328, -74.18980217859182]).addTo(map);
 
 // Add a popup to the marker
-luigismarker.bindPopup(`
+Wolfspond.bindPopup(`
    <b>Eggers IceCream Parlor</b>
    <img src="https://asbahfarhan.github.io/asbahfarhan/WolfesPondPark.jpg" style="width: 250px; height: 250px">
 //`).openPopup();
