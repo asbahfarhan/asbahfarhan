@@ -24,7 +24,7 @@ var BloomingDale = L.marker([40.53353484428936, -74.20941532805996]).addTo(map);
 
 // Add a popup to the marker
 BloomingDale.bindPopup(`
-   <b>Eggers IceCream Parlor</b>
+   <b>Bloomingdale Park</b>
    <img src="https://asbahfarhan.github.io/asbahfarhan/BloomingdalePark.png" style="width: 250px; height: 250px">
 //`).openPopup();
 
@@ -33,7 +33,7 @@ var Wolfspond = L.marker([40.51931224600328, -74.18980217859182]).addTo(map);
 
 // Add a popup to the marker
 Wolfspond.bindPopup(`
-   <b>Eggers IceCream Parlor</b>
+   <b>Wolfes Pond Park</b>
    <img src="https://asbahfarhan.github.io/asbahfarhan/WolfesPondPark.jpg" style="width: 250px; height: 250px">
 //`).openPopup();
 
