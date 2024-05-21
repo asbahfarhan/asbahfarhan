@@ -33,6 +33,13 @@ h1 {
     width: 80%;
     margin: 20px auto;
 }
+.custom-header {
+    font-family: 'Arial, sans-serif'; /* Change this to any font you prefer */
+    background-color: yellow; /* Change this to any color you prefer */
+    color: blue; /* Change this to the text color you prefer */
+    padding: 10px; /* Optional: adds some padding around the text */
+    border-radius: 5px; /* Optional: rounds the corners of the background */
+}
 
 .containertext {
     padding: 10px;
